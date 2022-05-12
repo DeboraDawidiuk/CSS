@@ -1,0 +1,70 @@
+/* Seletores */
+
+/* 
+    Seletores Simples
+        Seletores elementais
+            Seletor Universal -> *
+            Seletor de tipo etiqueta > Nome da etiqueta
+        Seletores de atributo
+            id - > id do elemento
+            classe -> classe do elemento
+            outros 
+    Seletores Compostos
+        Seletores Agrupados
+        Seletores Combinadores
+        Pseudoclasses - Pseudoelementos    
+*/
+
+/* *{
+    background-color: lightcoral;
+}
+
+h1 {
+    background-color: lightblue;
+}
+
+p {
+    background-color: lightgreen;
+}
+
+ul {
+    background-color: red;;
+}
+
+li {
+    background-color: blue;
+} 
+
+#title {
+    background-color: lightblue;
+}
+
+.title {
+    background-color: lightcoral;
+}
+
+.text {
+    background-color: lemonchiffon;
+}
+
+[href="//www.google.com"] {
+    background-color: mediumaquamarine;
+}
+
+.text1,
+.text2,
+.text3 {
+    background-color: steelblue;
+}
+
+div .title-2 {
+    background-color: blue;
+}*/
+
+.text2 + .title-2 { /*irmaos seguintes (+)*/
+    background-color: tomato;
+}
+
+.text2 ~ p {
+    background-color: pink;
+}

@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+    margin: 0;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.box1 {
+    background-color: lightcoral;
+    position: relative;
+    /* left: 50px;
+    right: -50px; */
+    border-radius: 50px;
+    top: 100px;
+    left: 100px;
+}
+
+.box2 {
+    background-color: lightgreen;
+    position: relative;
+}

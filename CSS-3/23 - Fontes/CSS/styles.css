@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    background-color: #333;
+    color:blue;
+    font-size: 40pt;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Smooch', cursive;
+    font-weight: 800;
+}
+
+.icon {
+    font-size: 5rem;
+    color: red;
+}
